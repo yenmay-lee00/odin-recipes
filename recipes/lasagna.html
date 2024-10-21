@@ -4,77 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Lasagna</h1>
-    <figure>
-        <img src="../images/lasagna.jpg" alt="lasagna" height="310">
-        <figcaption>Savor the layers of tender pasta, rich meat sauce, and creamy cheeses in this classic lasagna.</figcaption>
-    </figure>
+    <div class="container">
+        <h1 class="title">Lasagna</h1>
+        <figure class="recipe-figure">
+            <img src="../images/lasagna.jpg" alt="lasagna" class="recipe-image" height="310">
+            <figcaption class="recipe-caption">Savor the layers of tender pasta, rich meat sauce, and creamy cheeses in this classic lasagna.</figcaption>
+        </figure>
 
-    <h2>Ingredients:</h2>
-    <h3>For the meat sauce:</h3>
-    <ul>
-        <li>1 lb ground beef</li>
-        <li>1 lb Italian sausage</li>
-        <li>1 onion, finely chopped</li>
-        <li>4 cloves garlic, minced</li>
-        <li>2 cans (28 oz each) crushed tomatoes</li>
-        <li>2 cans (6 oz each) tomato paste</li>
-        <li>2 cans (15 oz each) tomato sauce</li>
-        <li>1/2 cup water</li>
-        <li>2 tbsp sugar</li>
-        <li>1/4 cup chopped fresh basil</li>
-        <li>1/4 cup chopped fresh parsley</li>
-        <li>1 tsp Italian seasoning</li>
-        <li>Salt and pepper to taste</li>
-    </ul>
-    
-    <h3>For the cheese mixture:</h3>
-    <ul>
-        <li>16 oz ricotta cheese</li>
-        <li>1 egg</li>
-        <li>1/4 cup chopped fresh parsley</li>
-        <li>1/2 tsp salt</li>
-    </ul>
-    
-    <h3>For assembling:</h3>
-    <ul>
-        <li>12 lasagna noodles</li>
-        <li>16 oz shredded mozzarella cheese</li>
-        <li>1 cup grated Parmesan cheese</li>
-    </ul>
-    
-    <h2>Instructions:</h2>
-    <ol>
-        <li><strong>Prepare the meat sauce:</strong>
-            <ul>
-                <li>In a large pot, cook the ground beef, sausage, and onion over medium heat until browned. Add the garlic and cook for another minute.</li>
-                <li>Stir in the crushed tomatoes, tomato paste, tomato sauce, and water. Add sugar, basil, parsley, Italian seasoning, salt, and pepper. Simmer for about 1.5 hours, stirring occasionally.</li>
-            </ul>
-        </li>
-        <li><strong>Prepare the cheese mixture:</strong>
-            <ul>
-                <li>In a medium bowl, combine ricotta cheese, egg, parsley, and salt. Mix well.</li>
-            </ul>
-        </li>
-        <li><strong>Cook the noodles:</strong>
-            <ul>
-                <li>Cook the lasagna noodles according to the package instructions. Drain and rinse with cold water.</li>
-            </ul>
-        </li>
-        <li><strong>Assemble the lasagna:</strong>
-            <ul>
-                <li>Preheat your oven to 375°F (190°C).</li>
-                <li>Spread 1 cup of meat sauce in the bottom of a 9x13 inch baking dish. Place 4 noodles over the sauce. Spread 1/3 of the ricotta mixture over the noodles. Top with 1/3 of the mozzarella cheese and 1/3 cup of Parmesan cheese. Repeat layers twice, ending with a layer of meat sauce and remaining mozzarella and Parmesan cheese.</li>
-            </ul>
-        </li>
-        <li><strong>Bake:</strong>
-            <ul>
-                <li>Cover with aluminum foil (to prevent sticking, either spray foil with cooking spray or make sure the foil does not touch the cheese).</li>
-                <li>Bake in preheated oven for 25 minutes. Remove the foil and bake an additional 25 minutes. Cool for 15 minutes before serving.</li>
-            </ul>
-        </li>
-    </ol>
+        <h2 class="section-title">Ingredients:</h2>
+        <h3 class="sub-section-title">For the meat sauce:</h3>
+        <ul class="ingredients-list">
+            <li class="ingredient-item">1 lb ground beef</li>
+            <li class="ingredient-item">1 lb Italian sausage</li>
+            <li class="ingredient-item">1 onion, finely chopped</li>
+            <li class="ingredient-item">4 cloves garlic, minced</li>
+            <li class="ingredient-item">2 cans (28 oz each) crushed tomatoes</li>
+            <li class="ingredient-item">2 cans (6 oz each) tomato paste</li>
+            <li class="ingredient-item">2 cans (15 oz each) tomato sauce</li>
+            <li class="ingredient-item">1/2 cup water</li>
+            <li class="ingredient-item">2 tbsp sugar</li>
+            <li class="ingredient-item">1/4 cup chopped fresh basil</li>
+            <li class="ingredient-item">1/4 cup chopped fresh parsley</li>
+            <li class="ingredient-item">1 tsp Italian seasoning</li>
+            <li class="ingredient-item">Salt and pepper to taste</li>
+        </ul>
+        
+        <h3 class="sub-section-title">For the cheese mixture:</h3>
+        <ul class="ingredients-list">
+            <li class="ingredient-item">16 oz ricotta cheese</li>
+            <li class="ingredient-item">1 egg</li>
+            <li class="ingredient-item">1/4 cup chopped fresh parsley</li>
+            <li class="ingredient-item">1/2 tsp salt</li>
+        </ul>
+        
+        <h3 class="sub-section-title">For assembling:</h3>
+        <ul class="ingredients-list">
+            <li class="ingredient-item">12 lasagna noodles</li>
+            <li class="ingredient-item">16 oz shredded mozzarella cheese</li>
+            <li class="ingredient-item">1 cup grated Parmesan cheese</li>
+        </ul>
+        
+        <h2 class="section-title">Instructions:</h2>
+        <ol class="instructions-list">
+            <li class="instruction-step"><strong>Prepare the meat sauce:</strong>
+                <ul class="sub-list">
+                    <li class="sub-item">In a large pot, cook the ground beef, sausage, and onion over medium heat until browned. Add the garlic and cook for another minute.</li>
+                    <li class="sub-item">Stir in the crushed tomatoes, tomato paste, tomato sauce, and water. Add sugar, basil, parsley, Italian seasoning, salt, and pepper. Simmer for about 1.5 hours, stirring occasionally.</li>
+                </ul>
+            </li>
+            <li class="instruction-step"><strong>Prepare the cheese mixture:</strong>
+                <ul class="sub-list">
+                    <li class="sub-item">In a medium bowl, combine ricotta cheese, egg, parsley, and salt. Mix well.</li>
+                </ul>
+            </li>
+            <li class="instruction-step"><strong>Cook the noodles:</strong>
+                <ul class="sub-list">
+                    <li class="sub-item">Cook the lasagna noodles according to the package instructions. Drain and rinse with cold water.</li>
+                </ul>
+            </li>
+            <li class="instruction-step"><strong>Assemble the lasagna:</strong>
+                <ul class="sub-list">
+                    <li class="sub-item">Preheat your oven to 375°F (190°C).</li>
+                    <li class="sub-item">Spread 1 cup of meat sauce in the bottom of a 9x13 inch baking dish. Place 4 noodles over the sauce. Spread 1/3 of the ricotta mixture over the noodles. Top with 1/3 of the mozzarella cheese and 1/3 cup of Parmesan cheese. Repeat layers twice, ending with a layer of meat sauce and remaining mozzarella and Parmesan cheese.</li>
+                </ul>
+            </li>
+            <li class="instruction-step"><strong>Bake:</strong>
+                <ul class="sub-list">
+                    <li class="sub-item">Cover with aluminum foil (to prevent sticking, either spray foil with cooking spray or make sure the foil does not touch the cheese).</li>
+                    <li class="sub-item">Bake in preheated oven for 25 minutes. Remove the foil and bake an additional 25 minutes. Cool for 15 minutes before serving.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
 </body>
 </html>
